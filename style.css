@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background: linear-gradient(111.4deg, rgb(246, 4, 26) 0.4%, rgb(251, 139, 34) 100.2%);
+}
+.navul{
+display: flex;
+justify-content:center;
+width: 100vw;
+text-align: center;
+
+gap: 5%;
+}
+.navli{
+    display: flex;
+    list-style: none;
+    height: 3vw; 
+    align-items: center;
+   
+    
+}
+.navli a{
+    text-decoration: none;
+}
+@media screen and (max-width:850px){
+    .navul{
+        flex-direction: column;
+    }
+    .navli{
+        border-bottom: 1px solid wheat;
+        justify-content: center;
+    }
+    
+}
