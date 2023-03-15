@@ -17,9 +17,12 @@ gap: 5%;
     display: flex;
     list-style: none;
     height: 3vw; 
-    align-items: center;
-   
-    
+    align-items: center;  
+}
+.navli img{
+    width: 10.98vw;
+    height: auto;
+    background-color: white;
 }
 .navli a{
     text-decoration: none;
